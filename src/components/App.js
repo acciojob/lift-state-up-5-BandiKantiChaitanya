@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>Lift State Up Demo</h1>
+      <h1>Parent Component</h1>
       {isLoggedIn ? (
         <h1>You are now logged in!</h1>
       ) : (
