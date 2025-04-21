@@ -12,7 +12,7 @@ const App = () => {
     <div style={{ padding: '20px' }}>
       <h1>Parent Component</h1>
       {isLoggedIn ? (
-        <h1>You are now logged in!</h1>
+        <p>You are logged in!</p>
       ) : (
         <LoginForm onLogin={handleLogin} />
       )}
