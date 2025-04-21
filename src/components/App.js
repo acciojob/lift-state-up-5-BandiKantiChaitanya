@@ -12,7 +12,7 @@ const App = () => {
     <div style={{ padding: '20px' }}>
       <h1>Lift State Up Demo</h1>
       {isLoggedIn ? (
-        <h1>You are now logged in!</h2>
+        <h1>You are now logged in!</h1>
       ) : (
         <LoginForm onLogin={handleLogin} />
       )}
